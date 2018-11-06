@@ -6,6 +6,8 @@ function ConvolutionLayer(input, filter, stride) {
     return nj.convolve(input, filter)
 }
 
-function reLU(input, stride) {
+function reLU(input, stride = 2) {
+    let tempMatrix
+    let resultMatrix
 
 }
